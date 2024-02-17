@@ -1,0 +1,477 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+a{
+  text-decoration: none;
+}
+li{
+    list-style-position: inside;
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+.bigNumber{
+    font-family: "Patua One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.text-small{
+    font-size: 14.5px;
+    font-family: "Stardos Stencil", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 10px;
+  color: #c2cfe2;
+}
+.Heading{
+    font-size: 20px;
+    font-family: "Stardos Stencil", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 10px;
+  color: #c2cfe2;
+  
+}
+.HeadingC{
+    font-size: 34px;
+    font-family: "Patua One", serif;
+    text-decoration: underline;
+  /* font-weight: 400; */
+  /* font-style: normal; */
+  padding-top: 10px;
+  color: #F4CE14;
+}
+.font-C{
+    font-size: 18px;
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  padding-top: 10px;
+  color: #c2cfe2;
+}
+.Main{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(16,16,28);
+background: linear-gradient(90deg, rgba(16,16,28,1) 100%, rgba(34,38,53,1) 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+}
+.ContentBox{
+    width: 97%;
+    height: 94%;
+    background: rgb(21,21,39);
+background: linear-gradient(90deg, rgba(21,21,39,1) 100%, rgba(34,38,53,1) 100%);
+border-radius: 10px;
+display: flex;
+flex-direction: row;
+}
+.ContentBoxLeft{
+    height: 100%;
+    width: 20%;
+    /* background: rgb(21,21,39);
+background: linear-gradient(0deg, rgba(21,21,39,1) 64%, rgba(34,38,53,1) 67%); */
+
+}
+.ContentBoxLeftTop{
+    height: 35%;
+    width: 100%;
+    background: rgb(21,21,39);
+background: linear-gradient(318deg, rgba(21,21,39,1) 29%, rgba(42,48,74,1) 54%);
+/* opacity: 0.5; */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.ContentBoxLeftTopprofilePic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(./images/WhatsApp\ Image\ 2024-02-14\ at\ 3.21.40\ AM.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: brightness(1);
+    position: relative;
+
+    
+}
+.smallcircle{
+    background-color: #F4CE14;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    
+}
+.ContentBoxLeftTopContent{
+    color: #c2cfe2;
+    margin-top: 15px;
+    font-family: "Stardos Stencil", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ContentBoxLeftBottom{
+    height: 55%;
+    overflow-y: auto;
+    background: rgb(21,21,39);
+background: linear-gradient(122deg, rgba(21,21,39,1) 32%, rgba(42,48,74,1) 89%);
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.RCA{
+    width: 90%;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.Residence{
+    width: 80%;
+    height: fit-content;
+    font-family: "Stardos Stencil", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #c2cfe2;
+    font-size:16px;
+}
+.progressSkill{
+    width: 90%;
+    height: 70px;
+    /* background-color: #686868; */
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  place-items: center;
+  gap: 2rem;
+
+}
+.EachSkill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*  */
+
+:root {
+    --progress-bar-width: 50px;
+    --progress-bar-height: 50px;
+    --font-size: 1rem;
+  }
+.circular-progress {
+  width: var(--progress-bar-width);
+  height: var(--progress-bar-height);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-circle {
+  /* position: absolute; */
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: lightgrey; */
+}
+
+.percentage {
+  position: relative;
+  font-size: var(--font-size);
+  /* color: rgba(227, 19, 19, 0.8); */
+}
+
+.TextSkills{
+    width: 70%;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+
+.ContentBoxLeftBottomLogo{
+height: 10%;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+padding: 0 30px 0 30px;
+align-items: center;
+/* background-color: black; */
+}
+.ContentBoxRight{
+    height: 100%;
+    width: 75%;
+    background: rgb(21,21,39);
+background: linear-gradient(318deg, rgba(21,21,39,1) 29%, rgba(42,48,74,1) 54%);
+overflow-y: auto;
+display: flex;
+flex-direction: column;
+padding: 20px 50px;
+/* align-items: center; */
+}
+
+
+
+.borderyellow{
+    width: 80px;
+    margin-top: 1px;
+    /* height: 10px; */
+    border: 2px solid #F4CE14;
+}
+.ContactInfo{
+    width: 100%;
+    height: 85%;
+    
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+.LogoPart{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.LogoSegment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 22%;
+    height: 100%;
+}
+.logoHeading{
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #F4CE14;
+  padding-top: 25px;
+  font-size: 20px;
+
+}
+
+.MailPart{
+    width: 100%;
+    height: 70%;
+    /* background-color: #343452; */
+}
+.lo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    background-color: #27273e;
+}
+.N{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+#NameSec{
+    width: 100%;
+    height: 100%;
+    /* background-color: #343452; */
+    
+    border: 2px solid #494958;
+}
+.form-control{
+  width: 100%;
+    height: 100%;
+    
+    
+    /* border: 1px solid #343452; */
+    padding: 0px 15px;
+    font-size: 16px;
+    border: none;
+    color: #9f9e9e;
+    background-color: #2e2e49;
+    /* color: var(--text-black-700); */
+    transition: all 0.3s ease;
+    
+    /* -webkit-box-shadow: 5px 5px 15px 0px #000000; 
+  box-shadow: 5px 5px 15px 0px #000000; */
+}
+.Mess{
+  width: 100%;
+    height: fit-content;
+    max-height: 200px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    
+}
+.textArea{
+  border: 2px solid #494958;
+  min-width: 93%;
+  min-height: 150px;
+  max-height: 200px;
+}
+.textArea:focus{
+  outline: 2px solid #686868;
+}
+.form-control:focus{
+  outline: 2px solid #686868;
+}
+
+.btn{
+letter-spacing: 1.2px;
+padding: 5px 10px;
+color: #27273e;
+background-color: #F4CE14;
+border: none;
+width: 100px;
+height: 40px;
+font-family: "Patua One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  border-radius: 2px;
+}
+
+
+
+
+
+
+.ContentBoxRight::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .ContentBoxRight::-webkit-scrollbar-track {
+    background: rgb(21,21,39,1);
+  }
+  
+  /* Handle */
+  .ContentBoxRight::-webkit-scrollbar-thumb {
+    background: rgba(21,21,39,1);
+  }
+  
+  /* Handle on hover */
+
+
+
+.MenuContent{
+  /* display: none; */
+  opacity: 0;
+  width: 0px;
+  transition: all 0.5s ease 100ms;
+  height: 100%;
+  background-color:rgb(21,21,39) ;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  /* justify-content: center; */
+  align-items: center;
+}
+.ContentBoxRightBar{
+    height: 100%;
+    width: 5%;
+    
+}
+.ContentBoxRightBarTop{
+    height: 10%;
+    width: 100%;
+    background-color: #343452;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MenuDivContent{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.menuBtn{
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  
+}
+
+.menuBtn:hover{
+  cursor: pointer;
+}
+
+.Navy{
+  font-size: 18px;
+  color: #6c6c88;
+  font-family: "Stardos Stencil", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 10px;
+}
+
+.ContentBoxRightBarBottom{
+    height: 90%;
+    width: 100%;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    color: #686868;
+    font-family: "Stardos Stencil", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.mhome:hover{
+  cursor: pointer;
+  color: #ffffff;
+}
+.MenuDivContent a:hover{
+  color: #c2cfe2;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(21,21,39);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #272e44;
+  }
+  
+  /* Handle on hover */
+  
