@@ -278,7 +278,7 @@ justify-content: center;
 box-shadow: 5px 7px 15px 0px #000000;
 }
 .projectPic{
-    background-image: url(/images/eduHub.png);
+    background-image: url(./images/eduHub.png);
     width: 60%;
     height: 100%;
     background-repeat: no-repeat;
@@ -286,7 +286,7 @@ box-shadow: 5px 7px 15px 0px #000000;
     border-radius: 20px 0 0 20px;
 }
 .projectPic1{
-    background-image: url(/images/phantasmogoria.jpeg);
+    background-image: url(./images/phantasmogoria.jpeg);
     width: 60%;
     height: 100%;
     background-repeat: no-repeat;
